@@ -1,0 +1,14 @@
+*.elf
+*.o
+*.a
+*.so
+*.out
+*.jpg
+*.jpeg
+*.png
+*.txtjpg
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+/.vscode/
