@@ -7,8 +7,64 @@
 *.jpeg
 *.png
 *.txtjpg
+# Python
+__pycache__/
 */__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+.venv/
+venv/
+ENV/
+env/
+.env
 *.pyc
 *.pyo
 *.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node.js
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+.yarn-integrity
+
+# Circom / Nodejs
+*.r1cs
+*.sym
+*.wasm
+*.wtns
+*.zkey
+*.json
+!package.json
+!input.json
+!verification_key.json
+build/
+keys/
+proofs/
+*_cpp/
+*_js/
+
 /.vscode/
