@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "circom_tester": "^0.0.24",
+    "ffjavascript": "^0.3.1"
+  }
+}
